@@ -22,13 +22,25 @@
 
     <include layout="@layout/content_main" />
 
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="?attr/colorPrimary"
+        app:fabAlignmentMode="end"
+        app:fabCradleMargin="15dp"
+        app:fabCradleVerticalOffset="20dp"
+        app:fabCradleRoundedCornerRadius="40dp"
+        app:hideOnScroll="true"
+        app:menu="@menu/bottom_app_bar_menu" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:src="@drawable/ic_add"
+        app:layout_anchor="@id/bottom_app_bar"
+        app:maxImageSize="35dp"
+        app:tint="?attr/colorOnSecondary" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
