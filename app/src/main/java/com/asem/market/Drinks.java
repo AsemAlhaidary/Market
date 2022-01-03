@@ -1,16 +1,51 @@
-package supermarket;
+package com.asem.market;
 
-class Drinks extends Category {
+public class Drinks extends Category {
     private String capacity;
 
-    public Drinks() {
-    }
-    
     public Drinks(String name, float price, int quantity, int production_Date, int expiration_Date, String capacity) {
         super(name, price, quantity, production_Date, expiration_Date);
         this.capacity = capacity;
     }
-    
-    
+
+    @Override
+    public void setDetails(String details) {
+        super.details = details;
+    }
+
+    @Override
+    public String getName() {
+        return super.name;
+    }
+
+    @Override
+    public float getPrice() {
+        return super.price;
+    }
+
+    @Override
+    public int getQuantity() {
+        return super.quantity;
+    }
+
+    @Override
+    public String getDetails() {
+        return null;
+    }
+
+    @Override
+    public int getProduction_Date() {
+        return super.production_Date;
+    }
+
+    @Override
+    public int getExpiration_Date() {
+        return super.expiration_Date;
+    }
+
+    @Override
+    public int getReminingDate() {
+        return 0;
+    }
 }
  

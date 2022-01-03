@@ -1,14 +1,14 @@
-package supermarket;
+package com.asem.market;
 
-public class Category {
+public abstract class Category {
 
     protected String name;
     protected float price;
     protected int quantity;
+    protected String details;
     protected int production_Date;
     protected int expiration_Date;
-    
-    public Category(){}
+
     public Category(String name, float price, int quantity, int production_Date, int expiration_Date) {
         this.name = name;
         this.price = price;
@@ -16,28 +16,20 @@ public class Category {
         this.production_Date = production_Date;
         this.expiration_Date = expiration_Date;
     }
-     
-    public String getName() {
-        return name;
-    }
 
-    public float getPrice() {
-        return price;
-    }
+    public abstract void setDetails(String details);
 
-    public int getQuantity() {
-        return quantity;
-    }
+    public abstract String getName();
 
-    public int getProduction_Date() {
-        return production_Date;
-    }
+    public abstract float getPrice();
 
-    public int getExpiration_Date() {
-        return expiration_Date;
-    }
-    public int returnDate()
-    {
-    return expiration_Date-production_Date;
-    }
+    public abstract int getQuantity();
+
+    public abstract String getDetails();
+
+    public abstract int getProduction_Date();
+
+    public abstract int getExpiration_Date();
+
+    public abstract int getReminingDate();
 }
