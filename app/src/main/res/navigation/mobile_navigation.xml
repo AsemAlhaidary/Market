@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_all">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.asem.market.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_all"
+        android:name="com.asem.market.ui.all.AllFragment"
+        android:label="@string/menu_all"
+        tools:layout="@layout/fragment_all" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.asem.market.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_preserves"
+        android:name="com.asem.market.ui.preserves.PreservesFragment"
+        android:label="@string/menu_preserves"
+        tools:layout="@layout/fragment_preserves" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.asem.market.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_drinks"
+        android:name="com.asem.market.ui.drinks.DrinksFragment"
+        android:label="@string/menu_drinks"
+        tools:layout="@layout/fragment_drinks" />
 </navigation>
