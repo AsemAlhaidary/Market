@@ -30,8 +30,8 @@
         app:backgroundTint="?attr/colorPrimary"
         app:fabAlignmentMode="end"
         app:fabCradleMargin="15dp"
-        app:fabCradleVerticalOffset="20dp"
         app:fabCradleRoundedCornerRadius="40dp"
+        app:fabCradleVerticalOffset="20dp"
         app:hideOnScroll="true"
         app:menu="@menu/bottom_app_bar_menu" />
 

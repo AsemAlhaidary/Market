@@ -13,14 +13,19 @@
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/side_nav_bar.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/content_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_All.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_all.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_drinks.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/products_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/menu/bottom_app_bar_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
       </map>
     </option>
   </component>
