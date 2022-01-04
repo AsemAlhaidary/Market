@@ -7,12 +7,14 @@ android {
 
     defaultConfig {
         applicationId "com.asem.market"
-        minSdk 21
+        minSdk 19
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        targetSdkVersion 32
+        minSdkVersion 19
     }
 
     buildTypes {
