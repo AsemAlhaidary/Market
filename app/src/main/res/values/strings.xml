@@ -16,4 +16,6 @@
 
     <string name="ic_home">Home</string>
     <string name="ic_search">Search</string>
+    <string name="input_product">Product</string>
+    <string name="input_price">Price</string>
 </resources>
