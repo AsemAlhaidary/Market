@@ -1,4 +1,4 @@
-package com.asem.market;
+package supermarket;
 
 public class Drinks extends Category {
     private String capacity;
