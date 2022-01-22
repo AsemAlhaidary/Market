@@ -10,7 +10,7 @@ public class PreservesViewModel extends ViewModel {
 
     public PreservesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Preserves");
     }
 
     public LiveData<String> getText() {
