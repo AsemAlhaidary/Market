@@ -1,4 +1,4 @@
-package supermarket;
+package com.asem.market;
 
 public abstract class Category {
 
@@ -8,7 +8,7 @@ public abstract class Category {
     protected String details;
     protected int production_Date;
     protected int expiration_Date;
-    public Category(){}
+
     public Category(String name, float price, int quantity, int production_Date, int expiration_Date) {
         this.name = name;
         this.price = price;

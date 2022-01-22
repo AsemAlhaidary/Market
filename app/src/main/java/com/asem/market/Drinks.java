@@ -1,4 +1,4 @@
-package supermarket;
+package com.asem.market;
 
 public class Drinks extends Category {
     private String capacity;
@@ -46,6 +46,36 @@ public class Drinks extends Category {
     @Override
     public int getReminingDate() {
         return 0;
+    }
+
+    @Override
+    public void insertNames(String[] names) {
+
+    }
+
+    @Override
+    public void insertPrice(float[] prices) {
+
+    }
+
+    @Override
+    public void insertQuantities(int[] quantities) {
+
+    }
+
+    @Override
+    public void insertProduction_Date(int[] production_Date) {
+
+    }
+
+    @Override
+    public void insertExpiration_Date(int[] expiration_Date) {
+
+    }
+
+    @Override
+    public void displayData() {
+
     }
 }
  
