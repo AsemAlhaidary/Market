@@ -4,16 +4,26 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.asem.market.R;
+
 public class AllViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private MutableLiveData<String> mPreservesText;
+    private MutableLiveData<String> mDrinksText;
 
     public AllViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is all fragment");
+        mPreservesText = new MutableLiveData<>();
+        mDrinksText = new MutableLiveData<>();
+
+        mPreservesText.setValue("Preserves");
+        mDrinksText.setValue("Drinks");
     }
 
-    public LiveData<String> getText() {
-        return mText;
+    public LiveData<String> getPreservesText() {
+        return mPreservesText;
+    }
+
+    public LiveData<String> getDrinksText() {
+        return mDrinksText;
     }
 }
