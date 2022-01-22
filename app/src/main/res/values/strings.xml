@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Market</string>
+    <string name="app_name">Go Buy</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Go Buy - OOP Project</string>
+    <string name="nav_header_subtitle">Instructor - Eng Hanadi</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 

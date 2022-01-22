@@ -19,7 +19,7 @@
         android:background="@drawable/radius_corners"
         android:scaleType="centerCrop"
         android:src="@drawable/one"
-        app:shapeAppearanceOverlay="@style/roundimageview" />
+        app:shapeAppearanceOverlay="@style/round_recycle_view" />
 
     <LinearLayout
         android:layout_width="match_parent"

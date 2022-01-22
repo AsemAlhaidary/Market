@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_grocery_store.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_home.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2703125" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_menu_drink.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/ic_search.xml" value="0.2703125" />
@@ -14,22 +16,32 @@
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/drawable/side_nav_bar.xml" value="0.2703125" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout-v21/row_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/activity_add_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/activity_drinks.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/activity_onload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/activity_preserves.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/bottom_app_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/buttom_app_bar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/drinks_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_All.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_all.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_drinks.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_preserves.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_preserves.xml" value="0.1" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/horizontal_recyclerview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/list_row_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/navigation_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/preserves_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/products_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/radius_corners.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/row_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/layout/top_app_bar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/menu/bottom_app_bar_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asem/AndroidStudioProjects/Market/app/src/main/res/menu/main.xml" value="0.25416666666666665" />

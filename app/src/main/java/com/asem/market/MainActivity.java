@@ -26,12 +26,6 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
-    // Initialize variables
-    private RecyclerView recyclerview;
-
-    ArrayList<MainModel> mainModels;
-    MainAdapter mainAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,37 +50,6 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-
-        // Assign Variables
-        recyclerview = findViewById(R.id.recycler_view);
-
-        // Create Integer Array
-        Integer[] pictures = {R.drawable.one, R.drawable.two, R.drawable.three,
-                            R.drawable.four, R.drawable.five, R.drawable.six};
-
-        // Create String Array
-        String[] picturesNames = {"One", "Two", "Three", "Four", "Five", "Six"};
-
-        // Create Float Array
-        Float[] productsPrice = {32.0f, 32.0f, 44.0f, 21.0f, 65.0f, 43.0f};
-
-        // Initialize ArrayList
-        mainModels = new ArrayList<MainModel>();
-        for (int i = 0; i < pictures.length; i++) {
-            MainModel model = new MainModel(pictures[i], picturesNames[i], productsPrice[i]);
-            mainModels.add(model);
-        }
-
-        // Design Horizontal Layout
-        LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
-        recyclerview.setLayoutManager(layoutManager);
-        recyclerview.setItemAnimator(new DefaultItemAnimator());
-
-        // Initialize MainAdapter
-        mainAdapter = new MainAdapter(MainActivity.this, mainModels);
-
-        // Set MainAdapter to RecyclerView
-        recyclerview.setAdapter(mainAdapter);
     }
 
     @Override

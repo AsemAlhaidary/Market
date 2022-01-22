@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="roundimageview">
+    <style name="round_recycle_view">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSizeTopLeft">5dp</item>
         <item name="cornerSizeTopRight">5dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="round_list_view">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">5dp</item>
+        <item name="cornerSizeBottomLeft">5dp</item>
         <item name="color">@color/white</item>
     </style>
 </resources>
